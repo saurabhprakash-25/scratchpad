@@ -1,9 +1,8 @@
 #include <iostream>
-#include <iomanip>
 using namespace std;
 
 // Numbering starts from 1
-int fib(int n)
+long long fib(int n)
 {
     if (n <= 2)
         return 1;
